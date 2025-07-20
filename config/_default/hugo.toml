@@ -1,8 +1,8 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "MIND AND MUSCLE"
 theme = "liva-hugo"
-summaryLength = "10"
+summaryLength = "230"
 pagination.pagerSize = 6
 disqusShortname = ""

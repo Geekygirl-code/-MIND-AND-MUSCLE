@@ -45,6 +45,14 @@
           </li>
           {{ end }}
           {{ end }}
+
+          <!-- Add Sign In and Sign Up links here -->
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/signin/" | absURL }}">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/signup/" | absURL }}">Sign Up</a>
+          </li>
         </ul>
 
         {{ if .Site.Params.search.enable }}
