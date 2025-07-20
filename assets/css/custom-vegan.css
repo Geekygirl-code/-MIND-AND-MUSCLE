@@ -1,0 +1,183 @@
+/* File: assets/css/custom-vegan.css */
+.vegan-diet-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  background: #fefefe;
+  color: #2d2d2d;
+}
+
+.vegan-diet-page .title {
+  font-size: 3rem;
+  color: #43a047;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.vegan-diet-page .meta {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+}
+
+.vegan-diet-page h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid #81c784;
+  padding-bottom: 0.3rem;
+  color: #388e3c;
+}
+
+.vegan-diet-page h3 {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  color: #4caf50;
+}
+
+.highlight-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.highlight-list li::before {
+  content: '✓';
+  margin-right: 8px;
+  color: #43a047;
+  font-weight: bold;
+}
+
+.food-group {
+  background: #f1f8e9;
+  padding: 1rem;
+  border-left: 5px solid #81c784;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.cta-section {
+  background-color: #e8f5e9;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* General text */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2a7a2a;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Horizontal lines */
+hr {
+  border: none;
+  border-bottom: 2px solid #2a7a2a;
+  margin: 2rem 0;
+}
+
+/* Custom food-group style if using HTML div */
+.food-group {
+  background: #f4f9f4;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: #2980b9;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+
+strong {
+  color: #e74c3c;
+}
+.workout-plan-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  background: #f9fafb;
+  color: #222;
+}
+
+.workout-plan-page h1 {
+  font-size: 2.8rem;
+  color: #1e88e5;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+.workout-plan-page h2, .workout-plan-page h3 {
+  color: #1565c0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.workout-plan-page ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.workout-plan-page strong, .workout-plan-page b {
+  color: #d32f2f;
+}
+
+.workout-plan-page hr {
+  border: none;
+  border-bottom: 2px solid #1e88e5;
+  margin: 2rem 0;
+}
+
+.workout-plan-page p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.workout-plan-page {
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.15);
+  border-radius: 12px;
+  background: #e3f2fd;
+}
