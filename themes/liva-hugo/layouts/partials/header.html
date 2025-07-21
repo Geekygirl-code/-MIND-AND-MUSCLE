@@ -10,16 +10,16 @@
         <i class="ti-menu"></i>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <div class="desktop-view">
-          <ul class="navbar-nav mr-auto">
-            {{ range .Site.Params.social }}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
+<!--      <div class="collapse navbar-collapse text-center" id="navigation">-->
+<!--        <div class="desktop-view">-->
+<!--          <ul class="navbar-nav mr-auto">-->
+<!--            {{ range .Site.Params.social }}-->
+<!--            <li class="nav-item">-->
+<!--              <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>-->
+<!--            </li>-->
+<!--            {{ end }}-->
+<!--          </ul>-->
+<!--        </div>-->
 
         <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}">
             {{ partial "image.html" (dict "Src" .Site.Params.logo "Alt" .Site.Title "Class" "img-fluid" ) }}
